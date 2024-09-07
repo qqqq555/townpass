@@ -1,5 +1,4 @@
 import 'package:town_pass/bean/activity.dart';
-import 'package:town_pass/gen/fonts.gen.dart';
 import 'package:town_pass/util/tp_app_bar.dart';
 import 'package:town_pass/util/tp_cached_network_image.dart';
 import 'package:town_pass/util/tp_colors.dart';
