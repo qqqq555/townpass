@@ -28,6 +28,7 @@ enum MyServiceItemId {
   library,
   locationSearch,
   zoo,
+  chat,
   ;
 }
 
@@ -174,6 +175,13 @@ extension MyServiceIdExt on MyServiceItemId {
           category: MyServiceCategory.explore,
           destinationUrl: '',
         ),
+      MyServiceItemId.chat => MyServiceItem(
+        title: '聊天站',
+        description: '等車有聊不無聊',
+        icon: Assets.svg.iconChat.svg(),
+        category: MyServiceCategory.cityLife,
+        destinationUrl: '/',
+      ),
     };
   }
 }
