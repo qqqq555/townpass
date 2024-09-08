@@ -176,11 +176,11 @@ extension MyServiceIdExt on MyServiceItemId {
           destinationUrl: '',
         ),
       MyServiceItemId.chat => MyServiceItem(
-        title: '聊天站',
+        title: '公車聊天站',
         description: '等車有聊不無聊',
         icon: Assets.svg.iconChat.svg(),
         category: MyServiceCategory.cityLife,
-        destinationUrl: '/',
+        destinationUrl: 'https://yuun.24.robot.ncufresh.ncu.edu.tw/',
       ),
     };
   }
